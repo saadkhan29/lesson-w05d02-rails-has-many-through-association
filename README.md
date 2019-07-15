@@ -174,7 +174,7 @@ That’s what we want to see! Make a few more associations, and we can see all t
 
 ## YOU DO
 
-Using this lesson as a guide, create a new app where a `student` has many `instructors` through a `class`.
+Using this lesson as a guide, create a new app where a `student` has many `instructors` through a `course`.
 
 <br>
 
