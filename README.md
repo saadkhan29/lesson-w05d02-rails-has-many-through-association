@@ -172,6 +172,12 @@ That’s what we want to see! Make a few more associations, and we can see all t
 
 <br>
 
+## YOU DO
+
+Using this lesson as a guide, create a new app where a `student` has many `instructors` through a `class`.
+
+<br>
+
 ## Additional Resources
 
 - [Rails has many through association](https://guides.rubyonrails.org/association_basics.html#the-has-many-through-association)
