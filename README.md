@@ -8,7 +8,7 @@ Or doctors may have many patients and patients may have many doctors and they co
 ==============
 First step, create our new project, called `doctor_app`.
 
-        $ rails new doctor_app -d postgresql
+        $ rails new doctor_app -d mysql
 
 Next, we will create the three models we need for our `has_many :through` association. To make our lives easier, we'll use scaffolding in order to create the associated views and controllers at the same time.
 
@@ -101,7 +101,7 @@ to this:
           <div class="field">
             <%= form.select :patient_id, Patient.all.collect { |p| [ p.name, p.id ] } %>
           </div>
-          <div class="actions">s
+          <div class="actions">
             <%= form.submit %>
           </div>
         <% end %>
